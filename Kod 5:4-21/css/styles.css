@@ -1,0 +1,565 @@
+@font-face {
+  src: url("../SPBLUNT-Regular.woff") format("woff"), url("../SPBLUNT-Regular.ttf") format("truetype"); }
+
+/* line 39, /Users/arnhogstrom/Documents/VT 1:2/TNGD46/On-Demand Culture (Website)/Sidor/Kod 03-29-21/css/styles.scss */
+html {
+  padding: 0px;
+  margin: 0px;
+  width: 100vw;
+  overflow-x: hidden; }
+
+/* line 46, /Users/arnhogstrom/Documents/VT 1:2/TNGD46/On-Demand Culture (Website)/Sidor/Kod 03-29-21/css/styles.scss */
+body {
+  padding: 0px;
+  margin: 0px;
+  background-color: #000000; }
+
+/*Header*/
+/* line 53, /Users/arnhogstrom/Documents/VT 1:2/TNGD46/On-Demand Culture (Website)/Sidor/Kod 03-29-21/css/styles.scss */
+header {
+  z-index: 10;
+  display: flex;
+  background-color: #000000;
+  width: 100vw;
+  height: 20vh;
+  flex-direction: column;
+  justify-content: center;
+  position: fixed; }
+
+/* line 64, /Users/arnhogstrom/Documents/VT 1:2/TNGD46/On-Demand Culture (Website)/Sidor/Kod 03-29-21/css/styles.scss */
+.Logo {
+  order: 1;
+  flex-direction: column;
+  margin: auto; }
+
+/* line 70, /Users/arnhogstrom/Documents/VT 1:2/TNGD46/On-Demand Culture (Website)/Sidor/Kod 03-29-21/css/styles.scss */
+nav {
+  order: 2;
+  flex-direction: column;
+  margin: auto; }
+
+/* line 76, /Users/arnhogstrom/Documents/VT 1:2/TNGD46/On-Demand Culture (Website)/Sidor/Kod 03-29-21/css/styles.scss */
+.Logo img {
+  width: 90px;
+  height: 60px;
+  padding-top: 2vh; }
+
+/* line 82, /Users/arnhogstrom/Documents/VT 1:2/TNGD46/On-Demand Culture (Website)/Sidor/Kod 03-29-21/css/styles.scss */
+header li {
+  font-family: SPBLUNT-Regular, sansserif;
+  font-size: 16px;
+  color: #FFFFFF;
+  display: inline; }
+
+/* line 87, /Users/arnhogstrom/Documents/VT 1:2/TNGD46/On-Demand Culture (Website)/Sidor/Kod 03-29-21/css/styles.scss */
+header li a {
+  text-decoration: none;
+  color: white;
+  margin-left: 60px;
+  margin-right: 60px; }
+
+/* line 95, /Users/arnhogstrom/Documents/VT 1:2/TNGD46/On-Demand Culture (Website)/Sidor/Kod 03-29-21/css/styles.scss */
+header li a:hover {
+  color: #DF0000; }
+
+/* line 99, /Users/arnhogstrom/Documents/VT 1:2/TNGD46/On-Demand Culture (Website)/Sidor/Kod 03-29-21/css/styles.scss */
+.SpotButton img {
+  z-index: 2;
+  height: 60px;
+  position: fixed;
+  bottom: 3vw;
+  right: 3vw; }
+
+/*End of header*/
+/*SPLASH.html*/
+/* line 110, /Users/arnhogstrom/Documents/VT 1:2/TNGD46/On-Demand Culture (Website)/Sidor/Kod 03-29-21/css/styles.scss */
+.grain {
+  width: 100vw;
+  height: 100vh; }
+
+/* line 115, /Users/arnhogstrom/Documents/VT 1:2/TNGD46/On-Demand Culture (Website)/Sidor/Kod 03-29-21/css/styles.scss */
+.eye {
+  width: 30vw; }
+
+/* line 119, /Users/arnhogstrom/Documents/VT 1:2/TNGD46/On-Demand Culture (Website)/Sidor/Kod 03-29-21/css/styles.scss */
+.splashpagecontent {
+  width: 60%;
+  margin: auto;
+  z-index: 10;
+  position: absolute;
+  top: 22%;
+  left: 20%;
+  display: flex; }
+
+/* line 129, /Users/arnhogstrom/Documents/VT 1:2/TNGD46/On-Demand Culture (Website)/Sidor/Kod 03-29-21/css/styles.scss */
+.splashlogo {
+  width: 50%;
+  margin: auto;
+  margin-left: 25%; }
+
+/* line 135, /Users/arnhogstrom/Documents/VT 1:2/TNGD46/On-Demand Culture (Website)/Sidor/Kod 03-29-21/css/styles.scss */
+.latest p {
+  font-family: montserrat, sans-serif;
+  line-height: 1.5;
+  font-size: 1.5vw;
+  color: white;
+  text-align: center; }
+
+/* line 141, /Users/arnhogstrom/Documents/VT 1:2/TNGD46/On-Demand Culture (Website)/Sidor/Kod 03-29-21/css/styles.scss */
+.splashbold {
+  font-weight: bold; }
+
+/* line 145, /Users/arnhogstrom/Documents/VT 1:2/TNGD46/On-Demand Culture (Website)/Sidor/Kod 03-29-21/css/styles.scss */
+.latest {
+  margin: auto;
+  margin-left: 10%;
+  align-content: center;
+  justify-content: center; }
+
+/*End of SPLASH.html*/
+/*START.html*/
+/* line 155, /Users/arnhogstrom/Documents/VT 1:2/TNGD46/On-Demand Culture (Website)/Sidor/Kod 03-29-21/css/styles.scss */
+.Hero img {
+  z-index: 1;
+  position: relative;
+  width: 100vw;
+  margin-top: 20vh;
+  margin-bottom: 0; }
+
+/* line 163, /Users/arnhogstrom/Documents/VT 1:2/TNGD46/On-Demand Culture (Website)/Sidor/Kod 03-29-21/css/styles.scss */
+.BlockOne {
+  width: 75%; }
+
+/* line 167, /Users/arnhogstrom/Documents/VT 1:2/TNGD46/On-Demand Culture (Website)/Sidor/Kod 03-29-21/css/styles.scss */
+.TitleOne p {
+  z-index: 8;
+  font-family: SPBLUNT-Regular, sans-serif;
+  font-size: 4.5vw;
+  color: #FFFFFF;
+  color: #FFFFFF;
+  position: absolute;
+  right: 3vw;
+  top: 35vh; }
+
+/* line 177, /Users/arnhogstrom/Documents/VT 1:2/TNGD46/On-Demand Culture (Website)/Sidor/Kod 03-29-21/css/styles.scss */
+.FButton img {
+  z-index: 1;
+  position: absolute;
+  margin: 0;
+  width: 15vw;
+  right: 17vw;
+  top: 68vh; }
+
+/* line 187, /Users/arnhogstrom/Documents/VT 1:2/TNGD46/On-Demand Culture (Website)/Sidor/Kod 03-29-21/css/styles.scss */
+.News img {
+  position: relative;
+  margin-top: -4px;
+  width: 100vw;
+  height: 80vh; }
+
+/* line 195, /Users/arnhogstrom/Documents/VT 1:2/TNGD46/On-Demand Culture (Website)/Sidor/Kod 03-29-21/css/styles.scss */
+.Bulletin {
+  position: absolute;
+  top: 80vh;
+  left: 6vw;
+  width: 75%; }
+
+/* line 203, /Users/arnhogstrom/Documents/VT 1:2/TNGD46/On-Demand Culture (Website)/Sidor/Kod 03-29-21/css/styles.scss */
+.TitleTwo p {
+  font-family: SPBLUNT-Regular, sansserif;
+  font-size: 3vw;
+  color: #FFFFFF;
+  position: absolute;
+  top: 33vh;
+  left: 7vw; }
+
+/* line 211, /Users/arnhogstrom/Documents/VT 1:2/TNGD46/On-Demand Culture (Website)/Sidor/Kod 03-29-21/css/styles.scss */
+.Hrule hr {
+  border: 3px solid white;
+  position: absolute;
+  border-radius: 3px;
+  width: 30vw;
+  margin-left: 0px;
+  margin-bottom: 60px;
+  top: 48vh;
+  left: 7vw; }
+
+/* line 222, /Users/arnhogstrom/Documents/VT 1:2/TNGD46/On-Demand Culture (Website)/Sidor/Kod 03-29-21/css/styles.scss */
+.NewsList ul li {
+  font-family: montserrat, sans-serif;
+  line-height: 1.5;
+  font-size: 1.5vw;
+  color: #FFFFFF;
+  position: relative;
+  top: 52vh;
+  left: 6vw; }
+
+/*End of START.html*/
+/*MUSIC.html*/
+/* line 233, /Users/arnhogstrom/Documents/VT 1:2/TNGD46/On-Demand Culture (Website)/Sidor/Kod 03-29-21/css/styles.scss */
+import font
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+/* line 240, /Users/arnhogstrom/Documents/VT 1:2/TNGD46/On-Demand Culture (Website)/Sidor/Kod 03-29-21/css/styles.scss */
+.Tcontainer {
+  font-family: montserrat, sans-serif;
+  line-height: 1.5;
+  font-size: 1.5vw;
+  min-height: 80vh;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20vh 0;
+  background-color: black; }
+
+/* line 251, /Users/arnhogstrom/Documents/VT 1:2/TNGD46/On-Demand Culture (Website)/Sidor/Kod 03-29-21/css/styles.scss */
+.timeline {
+  width: 80%;
+  height: auto;
+  max-width: 800px;
+  margin: 0 auto;
+  position: relative; }
+
+/* line 259, /Users/arnhogstrom/Documents/VT 1:2/TNGD46/On-Demand Culture (Website)/Sidor/Kod 03-29-21/css/styles.scss */
+.timeline ul {
+  list-style: none; }
+
+/* line 263, /Users/arnhogstrom/Documents/VT 1:2/TNGD46/On-Demand Culture (Website)/Sidor/Kod 03-29-21/css/styles.scss */
+.timeline ul li {
+  padding: 20px;
+  background-color: red;
+  color: white;
+  border-radius: 10px;
+  margin-bottom: 20px; }
+
+/* line 271, /Users/arnhogstrom/Documents/VT 1:2/TNGD46/On-Demand Culture (Website)/Sidor/Kod 03-29-21/css/styles.scss */
+.timeline ul li:last-child {
+  margin-bottom: 0; }
+
+/* line 275, /Users/arnhogstrom/Documents/VT 1:2/TNGD46/On-Demand Culture (Website)/Sidor/Kod 03-29-21/css/styles.scss */
+.timeline-content h1 {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 30px;
+  margin-bottom: 10px; }
+
+/* line 282, /Users/arnhogstrom/Documents/VT 1:2/TNGD46/On-Demand Culture (Website)/Sidor/Kod 03-29-21/css/styles.scss */
+.timeline-content p {
+  font-size: 16px;
+  line-height: 30px;
+  font-weight: 300; }
+
+@media only screen and (min-width: 768px) {
+  /* line 289, /Users/arnhogstrom/Documents/VT 1:2/TNGD46/On-Demand Culture (Website)/Sidor/Kod 03-29-21/css/styles.scss */
+  .timeline::before {
+    content: '';
+    position: absolute;
+    height: 260vh;
+    width: 4px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: gray; }
+  /* line 299, /Users/arnhogstrom/Documents/VT 1:2/TNGD46/On-Demand Culture (Website)/Sidor/Kod 03-29-21/css/styles.scss */
+  .timeline ul li {
+    width: 50%;
+    margin-bottom: 50px;
+    position: relative; }
+  /* line 305, /Users/arnhogstrom/Documents/VT 1:2/TNGD46/On-Demand Culture (Website)/Sidor/Kod 03-29-21/css/styles.scss */
+  .timeline ul li:nth-child(odd) {
+    float: left;
+    clear: right;
+    transform: translateX(-70px);
+    border-radius: 20px 0px 20px 20px; }
+  /* line 312, /Users/arnhogstrom/Documents/VT 1:2/TNGD46/On-Demand Culture (Website)/Sidor/Kod 03-29-21/css/styles.scss */
+  .timeline ul li:nth-child(even) {
+    float: right;
+    clear: left;
+    transform: translateX(30px);
+    border-radius: 0px 20px 20px 20px; }
+  /* line 319, /Users/arnhogstrom/Documents/VT 1:2/TNGD46/On-Demand Culture (Website)/Sidor/Kod 03-29-21/css/styles.scss */
+  .timeline ul li::after {
+    content: '';
+    position: absolute;
+    height: 20px;
+    width: 20px;
+    background-color: white;
+    border-radius: 50%;
+    top: 0; }
+  /* line 329, /Users/arnhogstrom/Documents/VT 1:2/TNGD46/On-Demand Culture (Website)/Sidor/Kod 03-29-21/css/styles.scss */
+  .timeline ul li:nth-child(odd)::after {
+    transform: translate(50%, -50%);
+    right: -10px; }
+  /* line 334, /Users/arnhogstrom/Documents/VT 1:2/TNGD46/On-Demand Culture (Website)/Sidor/Kod 03-29-21/css/styles.scss */
+  .timeline ul li:nth-child(even)::after {
+    transform: translate(-50%, -50%);
+    left: -10px; } }
+
+/*End of MUSIC.html*/
+/*GIGS.html*/
+/* line 345, /Users/arnhogstrom/Documents/VT 1:2/TNGD46/On-Demand Culture (Website)/Sidor/Kod 03-29-21/css/styles.scss */
+.gigsfull {
+  background-color: black; }
+
+/* line 349, /Users/arnhogstrom/Documents/VT 1:2/TNGD46/On-Demand Culture (Website)/Sidor/Kod 03-29-21/css/styles.scss */
+.gigshero {
+  margin-top: 11vh;
+  width: 100vw; }
+
+/* line 354, /Users/arnhogstrom/Documents/VT 1:2/TNGD46/On-Demand Culture (Website)/Sidor/Kod 03-29-21/css/styles.scss */
+.gigsmain {
+  width: 75%;
+  margin: auto; }
+
+/* line 359, /Users/arnhogstrom/Documents/VT 1:2/TNGD46/On-Demand Culture (Website)/Sidor/Kod 03-29-21/css/styles.scss */
+.gigsheader p {
+  font-family: SPBLUNT-Regular, sansserif;
+  font-size: 3vw;
+  color: white;
+  margin-top: 0; }
+
+/* line 365, /Users/arnhogstrom/Documents/VT 1:2/TNGD46/On-Demand Culture (Website)/Sidor/Kod 03-29-21/css/styles.scss */
+.gigsheader hr {
+  border: 3px solid white;
+  border-radius: 3px;
+  width: 350px;
+  margin-left: 0px;
+  margin-bottom: 60px; }
+
+/* line 373, /Users/arnhogstrom/Documents/VT 1:2/TNGD46/On-Demand Culture (Website)/Sidor/Kod 03-29-21/css/styles.scss */
+.gigsheader {
+  position: absolute;
+  top: 25vh;
+  background-color: black;
+  opacity: 0.8;
+  padding: 5%;
+  border-radius: 25px; }
+
+/* line 381, /Users/arnhogstrom/Documents/VT 1:2/TNGD46/On-Demand Culture (Website)/Sidor/Kod 03-29-21/css/styles.scss */
+.gigsgrid p {
+  font-family: montserrat, sans-serif;
+  line-height: 1.5;
+  font-size: 1vw;
+  color: white; }
+
+/* line 386, /Users/arnhogstrom/Documents/VT 1:2/TNGD46/On-Demand Culture (Website)/Sidor/Kod 03-29-21/css/styles.scss */
+.gigsbold {
+  font-weight: bold; }
+
+/* line 390, /Users/arnhogstrom/Documents/VT 1:2/TNGD46/On-Demand Culture (Website)/Sidor/Kod 03-29-21/css/styles.scss */
+.gigsgrid {
+  margin-top: -4.5vh;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  justify-content: space-between; }
+
+/*End of GIGS.html*/
+/*GALLERY.html*/
+/* line 401, /Users/arnhogstrom/Documents/VT 1:2/TNGD46/On-Demand Culture (Website)/Sidor/Kod 03-29-21/css/styles.scss */
+.gallery {
+  padding-top: 22vh;
+  margin: auto;
+  width: 80vw;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 1vw; }
+
+/* line 410, /Users/arnhogstrom/Documents/VT 1:2/TNGD46/On-Demand Culture (Website)/Sidor/Kod 03-29-21/css/styles.scss */
+.gallery img {
+  width: 100%;
+  filter: grayscale(1); }
+
+/* line 415, /Users/arnhogstrom/Documents/VT 1:2/TNGD46/On-Demand Culture (Website)/Sidor/Kod 03-29-21/css/styles.scss */
+.gallery img:hover {
+  filter: saturate(1);
+  transform: scale(1.09);
+  transition: all .5s ease-in-out; }
+
+/*End of GALLERY.html*/
+/*ABOUT.html*/
+/* line 424, /Users/arnhogstrom/Documents/VT 1:2/TNGD46/On-Demand Culture (Website)/Sidor/Kod 03-29-21/css/styles.scss */
+.aboutfull {
+  background-color: white; }
+
+/* line 429, /Users/arnhogstrom/Documents/VT 1:2/TNGD46/On-Demand Culture (Website)/Sidor/Kod 03-29-21/css/styles.scss */
+.abouthero {
+  margin-top: 11vh;
+  width: 100vw; }
+
+/* line 434, /Users/arnhogstrom/Documents/VT 1:2/TNGD46/On-Demand Culture (Website)/Sidor/Kod 03-29-21/css/styles.scss */
+.aboutmain {
+  width: 70%;
+  margin: auto; }
+
+/* line 439, /Users/arnhogstrom/Documents/VT 1:2/TNGD46/On-Demand Culture (Website)/Sidor/Kod 03-29-21/css/styles.scss */
+.aboutheader p {
+  font-family: SPBLUNT-Regular, sansserif;
+  font-size: 3vw;
+  color: white; }
+
+/* line 444, /Users/arnhogstrom/Documents/VT 1:2/TNGD46/On-Demand Culture (Website)/Sidor/Kod 03-29-21/css/styles.scss */
+.aboutheader hr {
+  border: 3px solid white;
+  border-radius: 3px;
+  width: 350px;
+  margin-left: 0px;
+  margin-bottom: 60px; }
+
+/* line 452, /Users/arnhogstrom/Documents/VT 1:2/TNGD46/On-Demand Culture (Website)/Sidor/Kod 03-29-21/css/styles.scss */
+.aboutheader {
+  position: absolute;
+  top: 30vh; }
+
+/* line 457, /Users/arnhogstrom/Documents/VT 1:2/TNGD46/On-Demand Culture (Website)/Sidor/Kod 03-29-21/css/styles.scss */
+.poem {
+  display: flex;
+  position: absolute;
+  top: 50vh;
+  max-width: 70%; }
+
+/* line 464, /Users/arnhogstrom/Documents/VT 1:2/TNGD46/On-Demand Culture (Website)/Sidor/Kod 03-29-21/css/styles.scss */
+.poem p {
+  font-family: montserrat, sans-serif;
+  line-height: 1.5;
+  font-size: 1vw;
+  color: white;
+  margin: auto;
+  justify-content: space-between; }
+
+/* line 471, /Users/arnhogstrom/Documents/VT 1:2/TNGD46/On-Demand Culture (Website)/Sidor/Kod 03-29-21/css/styles.scss */
+.column1 {
+  order: 1;
+  flex-direction: column;
+  padding-right: 1vw; }
+
+/* line 477, /Users/arnhogstrom/Documents/VT 1:2/TNGD46/On-Demand Culture (Website)/Sidor/Kod 03-29-21/css/styles.scss */
+.column2 {
+  order: 2;
+  flex-direction: column;
+  padding-right: 1vw; }
+
+/* line 483, /Users/arnhogstrom/Documents/VT 1:2/TNGD46/On-Demand Culture (Website)/Sidor/Kod 03-29-21/css/styles.scss */
+.column3 {
+  order: 3;
+  flex-direction: column; }
+
+/* line 488, /Users/arnhogstrom/Documents/VT 1:2/TNGD46/On-Demand Culture (Website)/Sidor/Kod 03-29-21/css/styles.scss */
+.band {
+  height: 65vh;
+  margin-top: 15vh; }
+
+/* line 493, /Users/arnhogstrom/Documents/VT 1:2/TNGD46/On-Demand Culture (Website)/Sidor/Kod 03-29-21/css/styles.scss */
+.band p1 {
+  font-family: SPBLUNT-Regular, sansserif;
+  font-size: 3vw; }
+
+/* line 498, /Users/arnhogstrom/Documents/VT 1:2/TNGD46/On-Demand Culture (Website)/Sidor/Kod 03-29-21/css/styles.scss */
+.band p {
+  font-family: montserrat, sans-serif;
+  line-height: 1.5;
+  font-size: 1vw; }
+
+/* line 502, /Users/arnhogstrom/Documents/VT 1:2/TNGD46/On-Demand Culture (Website)/Sidor/Kod 03-29-21/css/styles.scss */
+.bandinfo h2 {
+  font-family: SPBLUNT-Regular, sansserif;
+  font-size: 3vw; }
+
+/* line 506, /Users/arnhogstrom/Documents/VT 1:2/TNGD46/On-Demand Culture (Website)/Sidor/Kod 03-29-21/css/styles.scss */
+.bandinfo p {
+  font-family: montserrat, sans-serif;
+  line-height: 1.5;
+  font-size: 1vw; }
+
+/* line 510, /Users/arnhogstrom/Documents/VT 1:2/TNGD46/On-Demand Culture (Website)/Sidor/Kod 03-29-21/css/styles.scss */
+.bandinfo {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start; }
+
+/*End of ABOUT.html*/
+/*CONTACT.html*/
+/* line 520, /Users/arnhogstrom/Documents/VT 1:2/TNGD46/On-Demand Culture (Website)/Sidor/Kod 03-29-21/css/styles.scss */
+.contactbody {
+  background-color: black;
+  height: 80vh; }
+
+/* line 525, /Users/arnhogstrom/Documents/VT 1:2/TNGD46/On-Demand Culture (Website)/Sidor/Kod 03-29-21/css/styles.scss */
+.contact {
+  padding-top: 150px;
+  height: 600px;
+  background-color: black;
+  display: flex;
+  flex-direction: row;
+  width: 60%;
+  height: 650px;
+  justify-content: center;
+  margin: auto; }
+
+/* line 537, /Users/arnhogstrom/Documents/VT 1:2/TNGD46/On-Demand Culture (Website)/Sidor/Kod 03-29-21/css/styles.scss */
+.contact hr {
+  border: 3px solid white;
+  border-radius: 3px;
+  width: 350px;
+  margin-left: 0px;
+  margin-bottom: 60px; }
+
+/* line 545, /Users/arnhogstrom/Documents/VT 1:2/TNGD46/On-Demand Culture (Website)/Sidor/Kod 03-29-21/css/styles.scss */
+.links p {
+  color: white;
+  font-family: SPBLUNT-Regular, sansserif;
+  font-size: 3vw;
+  margin: auto;
+  margin-bottom: 15px; }
+
+/* line 552, /Users/arnhogstrom/Documents/VT 1:2/TNGD46/On-Demand Culture (Website)/Sidor/Kod 03-29-21/css/styles.scss */
+.links {
+  order: 1;
+  align-items: flex-start;
+  margin-top: 20%; }
+
+/* line 558, /Users/arnhogstrom/Documents/VT 1:2/TNGD46/On-Demand Culture (Website)/Sidor/Kod 03-29-21/css/styles.scss */
+.contactimg {
+  order: 2;
+  margin: auto;
+  margin-right: 0px; }
+
+/* line 564, /Users/arnhogstrom/Documents/VT 1:2/TNGD46/On-Demand Culture (Website)/Sidor/Kod 03-29-21/css/styles.scss */
+.contactimg img {
+  width: 400px; }
+
+/* line 568, /Users/arnhogstrom/Documents/VT 1:2/TNGD46/On-Demand Culture (Website)/Sidor/Kod 03-29-21/css/styles.scss */
+.mail {
+  margin-bottom: 20px; }
+
+/* line 572, /Users/arnhogstrom/Documents/VT 1:2/TNGD46/On-Demand Culture (Website)/Sidor/Kod 03-29-21/css/styles.scss */
+.mail img {
+  width: 7%; }
+
+/* line 576, /Users/arnhogstrom/Documents/VT 1:2/TNGD46/On-Demand Culture (Website)/Sidor/Kod 03-29-21/css/styles.scss */
+.facebook img {
+  width: 7%; }
+
+/* line 580, /Users/arnhogstrom/Documents/VT 1:2/TNGD46/On-Demand Culture (Website)/Sidor/Kod 03-29-21/css/styles.scss */
+.mail a {
+  text-decoration: none;
+  font-family: montserrat, sans-serif;
+  line-height: 1.5;
+  font-size: 1vw;
+  color: white;
+  margin-left: 10px; }
+
+/* line 587, /Users/arnhogstrom/Documents/VT 1:2/TNGD46/On-Demand Culture (Website)/Sidor/Kod 03-29-21/css/styles.scss */
+.facebook a {
+  font-family: montserrat, sans-serif;
+  line-height: 1.5;
+  font-size: 1vw;
+  color: white;
+  margin-left: 10px; }
+
+/*End of CONTACT.html*/
+
+/*# sourceMappingURL=styles.css.map */

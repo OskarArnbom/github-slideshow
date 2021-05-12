@@ -1,0 +1,43 @@
+#Gallery{
+    display:grid;
+    grid-template-rows:350px 350px;
+    grid-template-columns:450px 450px;
+    justify-content:center;
+
+}
+
+#Bild1{
+    padding-bottom: 20px;
+}
+
+#Bild2{
+    padding-bottom: 20px;
+}
+
+#Bild3{
+    padding-bottom: 100px;
+    padding-top: 50px;
+}
+#Bild4{
+    padding-bottom: 50px;
+    padding-top: 20px;
+}
+#Bild5{
+    padding-top: 290px;
+    padding-bottom: 40px;
+}
+
+#Bild6{
+    padding-top: 185px;
+}
+
+#Bild7{
+    padding-bottom: 15px;
+}
+
+#Bild8{
+    padding-bottom: 15px;
+}
+body{
+    background-color:black;
+}

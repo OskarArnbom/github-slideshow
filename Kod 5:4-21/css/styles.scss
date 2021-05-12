@@ -1,0 +1,594 @@
+@font-face{
+    src: url("../SPBLUNT-Regular.woff") format("woff"),
+         url("../SPBLUNT-Regular.ttf") format('truetype')
+}
+
+$red: #DF0000;
+$black: #000000;
+$white: #FFFFFF;
+
+@mixin paragraphtext{
+    font-family: montserrat, sans-serif;
+    line-height: 1.5;
+    font-size: 1.5vw;
+}
+
+@mixin headertext{
+    font-family: SPBLUNT-Regular, sansserif;
+    font-size: 3vw;
+}
+
+@mixin menutext{
+    font-family: SPBLUNT-Regular, sansserif;
+    font-size: 16px;
+    color: $white;
+}
+    
+@mixin titletext{
+    font-family: SPBLUNT-Regular, sans-serif;
+    font-size: 4.5vw;
+    color: $white;
+}
+
+@mixin poemtext{
+    font-family: montserrat, sans-serif;
+    line-height: 1.5;
+    font-size: 1vw;
+}
+
+html{
+    padding: 0px;
+    margin: 0px;
+    width: 100vw;
+    overflow-x: hidden;
+}
+
+body{
+    padding: 0px;
+    margin: 0px;
+    background-color: $black;
+}
+
+/*Header*/
+header{
+    z-index: 10;
+    display: flex; 
+    background-color: $black; 
+    width: 100vw;
+    height: 20vh;
+    flex-direction: column;
+    justify-content: center; 
+    position: fixed;
+}
+
+.Logo{
+    order: 1;
+    flex-direction: column;
+    margin: auto;
+}
+
+nav {
+    order: 2;
+    flex-direction: column;
+    margin: auto;
+}
+
+.Logo img {
+    width: 90px;
+    height: 60px;
+    padding-top: 2vh;
+}
+
+header li {
+    @include menutext;
+    display: inline;
+}
+
+header li a{
+    text-decoration: none;
+    color: white;
+    margin-left: 60px;
+    margin-right: 60px;
+    
+}
+
+header li a:hover {
+    color: $red;
+}
+
+.SpotButton img {
+    z-index: 2;
+    height: 60px;
+    position: fixed;
+    bottom: 3vw;
+    right: 3vw;
+}
+
+/*End of header*/
+
+/*SPLASH.html*/
+.grain{
+    width: 100vw;
+    height: 100vh;
+}
+
+.eye{
+    width: 30vw;
+}
+
+.splashpagecontent{
+    width: 60%;
+    margin: auto;
+    z-index: 10;
+    position: absolute;
+    top: 22%;
+    left: 20%;
+    display: flex;
+}
+
+.splashlogo{
+    width: 50%;
+    margin: auto;
+    margin-left: 25%;
+}
+
+.latest p{
+    @include paragraphtext;
+    color: white;
+    text-align: center;
+}
+
+.splashbold{
+    font-weight: bold;
+}
+
+.latest{
+    margin: auto;
+    margin-left: 10%;
+    align-content: center;
+    justify-content: center;
+}
+
+/*End of SPLASH.html*/
+
+/*START.html*/
+.Hero img {
+    z-index: 1; 
+    position: relative;
+    width: 100vw;
+    margin-top: 20vh;
+    margin-bottom: 0; 
+}
+
+.BlockOne{
+    width: 75%;
+}
+
+.TitleOne p{
+    z-index: 8;
+    @include titletext;
+    color: $white;
+    position: absolute;
+    right: 3vw;
+    top: 35vh;
+    
+}
+
+.FButton img {
+    z-index: 1;
+    position: absolute;
+    margin: 0;
+    width: 15vw;
+    right: 17vw;
+    top: 68vh;
+
+}
+
+.News img {
+    position: relative;
+    margin-top: -4px;
+    width: 100vw;
+    height: 80vh;
+
+}
+
+.Bulletin {
+    position: absolute;
+    top: 80vh;
+    left: 6vw;
+    width: 75%;
+}
+
+
+.TitleTwo p {
+    @include headertext;
+    color: $white;
+    position: absolute;
+    top: 33vh;
+    left: 7vw;
+}
+
+.Hrule hr{
+    border: 3px solid white;
+    position: absolute;
+    border-radius: 3px;
+    width: 30vw;
+    margin-left: 0px;
+    margin-bottom: 60px;
+    top: 48vh; 
+    left: 7vw;
+}
+
+.NewsList ul li {
+    @include paragraphtext;
+    color: $white;
+    position: relative;
+    top: 52vh;
+    left: 6vw;
+}
+
+/*End of START.html*/
+
+/*MUSIC.html*/
+import font
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.Tcontainer{
+    @include paragraphtext;
+    min-height: 80vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20vh 0;
+    background-color: black;
+}
+
+.timeline{
+    width: 80%;
+    height: auto;
+    max-width: 800px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.timeline ul{
+    list-style: none;
+}
+
+.timeline ul li{
+    padding: 20px;
+    background-color: red;
+    color: white;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.timeline ul li:last-child{
+    margin-bottom: 0;
+}
+
+.timeline-content h1{
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 30px;
+    margin-bottom: 10px;
+}
+
+.timeline-content p{
+    font-size: 16px;
+    line-height: 30px;
+    font-weight: 300;
+}
+
+@media only screen and (min-width: 768px){
+    .timeline::before{
+        content: '';
+        position:absolute;
+        height: 260vh;
+        width: 4px;
+        left: 50%;
+        transform: translateX(-50%);
+        background-color: gray;
+    }
+    
+    .timeline ul li{
+        width: 50%;
+        margin-bottom: 50px;
+        position: relative;
+    }
+    
+    .timeline ul li:nth-child(odd){
+        float: left;
+        clear: right;
+        transform: translateX(-70px);
+        border-radius: 20px 0px 20px 20px;
+    }
+    
+    .timeline ul li:nth-child(even){
+        float:right;
+        clear: left;
+        transform: translateX(30px);
+        border-radius: 0px 20px 20px 20px;
+    }
+    
+    .timeline ul li::after{
+        content: '';
+        position: absolute;
+        height: 20px;
+        width: 20px;
+        background-color: white;
+        border-radius: 50%;
+        top: 0;
+    }
+    
+    .timeline ul li:nth-child(odd)::after{
+        transform: translate(50%, -50%);
+        right: -10px;
+    }
+    
+    .timeline ul li:nth-child(even)::after{
+        transform: translate(-50%, -50%);
+        left: -10px;
+    }
+    
+}
+
+
+/*End of MUSIC.html*/
+
+/*GIGS.html*/
+.gigsfull{
+    background-color: black;
+}
+
+.gigshero{
+    margin-top: 11vh;
+    width: 100vw;
+}
+
+.gigsmain{
+    width: 75%;
+    margin: auto;
+}
+
+.gigsheader p{
+    @include headertext;
+    color: white;
+    margin-top: 0;
+}
+
+.gigsheader hr{
+    border: 3px solid white;
+    border-radius: 3px;
+    width: 350px;
+    margin-left: 0px;
+    margin-bottom: 60px
+}
+
+.gigsheader{
+    position: absolute;
+    top: 25vh;
+    background-color:rgb(0,0,0);opacity:0.8;
+    padding: 5%;
+    border-radius: 25px;
+}
+
+.gigsgrid p{
+    @include poemtext;
+    color: white;
+}
+
+.gigsbold{
+    font-weight: bold;
+}
+
+.gigsgrid{
+    margin-top: -4.5vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    justify-content: space-between;
+}
+
+/*End of GIGS.html*/
+
+/*GALLERY.html*/
+.gallery{
+    padding-top: 22vh;
+    margin: auto;
+    width: 80vw;
+    display:grid;
+    grid-template-columns:1fr 1fr 1fr;
+    grid-gap: 1vw
+}
+
+.gallery img{
+    width: 100%;
+    filter: grayscale(1);
+}
+
+.gallery img:hover {
+    filter: saturate(1);
+    transform: scale(1.09);
+    transition: all .5s ease-in-out;
+}
+
+/*End of GALLERY.html*/
+
+/*ABOUT.html*/
+.aboutfull{
+    background-color: white;
+   
+}
+
+.abouthero{
+    margin-top: 11vh;
+    width: 100vw;
+}
+
+.aboutmain{
+    width: 70%;
+    margin: auto;
+}
+
+.aboutheader p{
+    @include headertext;
+    color: white
+}
+
+.aboutheader hr{
+    border: 3px solid white;
+    border-radius: 3px;
+    width: 350px;
+    margin-left: 0px;
+    margin-bottom: 60px
+}
+
+.aboutheader{
+    position: absolute;
+    top: 30vh;
+}
+
+.poem{
+    display: flex;
+    position: absolute;
+    top: 50vh;
+    max-width: 70%;
+}
+
+.poem p{
+    @include poemtext;
+    color: white;
+    margin: auto;
+    justify-content: space-between;
+}
+
+.column1{
+    order: 1;
+    flex-direction: column;
+    padding-right: 1vw
+}
+
+.column2{
+    order: 2;
+    flex-direction: column;
+    padding-right: 1vw
+}
+
+.column3{
+    order: 3;
+    flex-direction: column;
+}
+
+.band{
+    height: 65vh;
+    margin-top: 15vh;
+}
+
+.band p1 {
+     font-family: SPBLUNT-Regular, sansserif;
+     font-size: 3vw;
+}
+
+.band p{
+    @include poemtext;
+}
+
+.bandinfo h2{
+    @include headertext;
+}
+
+.bandinfo p{
+    @include poemtext;
+}
+
+.bandinfo{
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start
+}
+
+/*End of ABOUT.html*/
+
+
+/*CONTACT.html*/
+.contactbody{
+    background-color: black;
+    height: 80vh;
+}
+
+.contact {
+    padding-top: 150px;
+    height: 600px;
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    width: 60%;
+    height: 650px;
+    justify-content: center;
+    margin: auto;
+}
+
+.contact hr{
+    border: 3px solid white;
+    border-radius: 3px;
+    width: 350px;
+    margin-left: 0px;
+    margin-bottom: 60px
+}
+
+.links p{
+    color: white;
+    @include headertext;
+    margin: auto;
+    margin-bottom: 15px;
+}
+
+.links{
+    order: 1;
+    align-items: flex-start;
+    margin-top: 20%;
+}
+
+.contactimg{
+    order: 2;
+    margin: auto;
+    margin-right: 0px;
+}
+
+.contactimg img{
+    width: 400px;
+}
+
+.mail{
+    margin-bottom: 20px;
+}
+
+.mail img{
+    width: 7%;
+}
+
+.facebook img{
+    width: 7%;
+}
+
+.mail a{
+    text-decoration: none;
+    @include poemtext;
+    color: white;
+    margin-left: 10px;
+    }
+    
+.facebook a{
+    @include poemtext;
+    color: white;
+    margin-left: 10px;
+    }
+
+/*End of CONTACT.html*/
+
